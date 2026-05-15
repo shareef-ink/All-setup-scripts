@@ -3,7 +3,7 @@ pipeline {
     agent any
 	
 	tools {
-	maven 'Maven_3.9.11'
+	maven 'Maven_3.9.15'
 	}
 	
     stages {
@@ -22,7 +22,7 @@ pipeline {
                 
                 sh ''' mvn sonar:sonar \\
                       -Dsonar.host.url=http://98.89.40.209:9000 \\
-                      -Dsonar.login=squ_ec23fffbc704f6a3530e15c00412e8d4ddc39d8b'''
+                      -Dsonar.login=squ_833ee6e166380c258f5e8e5ea26dc434e26a9c93'''
             }
     	}		
 		
