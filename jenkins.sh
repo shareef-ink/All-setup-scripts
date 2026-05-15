@@ -34,3 +34,4 @@ sudo systemctl status jenkins
 
 
 sudo apt update -y
+
