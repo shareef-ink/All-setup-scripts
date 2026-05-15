@@ -20,3 +20,4 @@ sudo echo '<?xml version="1.0" encoding="utf-8"?>
 cd /opt/apache-tomcat-9.0.117/conf/
 sudo sed -i 's/Connector port="8080"/Connector port="8081"/g' server.xml
 sudo /opt/apache-tomcat-9.0.117/bin/startup.sh
+
