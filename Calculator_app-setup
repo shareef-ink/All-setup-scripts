@@ -74,6 +74,8 @@ Manual setup:
 yum update  
 yum install -y go 
 GO111MODULE=off 
+cd /opt 
+touch calculator.go
 go build calculator.go
 
 
