@@ -32,3 +32,4 @@ sudo usermod -aG docker ubuntu
 sudo usermod -aG docker jenkins
 sudo systemctl restart dokcer
 sudo chmod 777 /var/run/docker.sock
+docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
